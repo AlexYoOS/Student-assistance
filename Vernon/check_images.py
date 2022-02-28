@@ -1,14 +1,3 @@
-#                                                                             
-# PURPOSE: Check images & report results: read them in, predict their
-#          content (classifier), compare prediction to actual value labels
-#          and output results
-#
-# Use argparse Expected Call with <> indicating expected user input:
-#      python check_images.py --dir <directory with images> --arch <model>
-#             --dogfile <file that contains dognames>
-#   Example call:
-#    python check_images_solution.py --dir pet_images/ --arch vgg --dogfile dognames.txt
-##
 
 # Imports python modules
 from time import time, sleep
